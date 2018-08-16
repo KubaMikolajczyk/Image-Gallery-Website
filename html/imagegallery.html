@@ -3,9 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Image Gallery</title>
+
+    <!-- connection with bootstrap css file -->
     <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <!-- connection with bootstrap CONTENT DELIVERY NETWORK -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
   </head>
   <body>
+
+
     <!-- navbar -->
     <nav class="navbar navbar-inverse">
       <div class="container">
@@ -31,12 +40,18 @@
       </div>
     </nav>
 
+
+
     <!-- jumbotron -->
     <div class="container">
+
       <div class="jumbotron">
-        <h1>The image gallery</h1>
+        <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span>The image gallery</h1>
         <p>A bunch of pictures that I chose to present from website unsplash.com</p>
       </div>
+
+
+      <!-- photo gallery grid -->
       <div class="row">
         <div class="col-lg-4 col-sm-6">
           <div class="thumbnail">
@@ -83,15 +98,25 @@
             <img src="https://source.unsplash.com/KP0T4vXw75k">
           </div>
         </div>
-
       </div>
+
+
+      <!-- end of container -->
     </div>
 
 
+      <!-- jquerry script connection -->
     <script
 src="https://code.jquery.com/jquery-3.3.1.js"
 integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 crossorigin="anonymous"></script>
+
+      <!-- bootstrap js script connection -->
     <script src="../js/bootstrap.js"></script>
+
+      <!-- bootstrap cdn script connection -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
   </body>
 </html>
